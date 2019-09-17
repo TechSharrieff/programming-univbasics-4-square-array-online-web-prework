@@ -1,12 +1,15 @@
 def square_array(array)
-  numbers = [1,2,3]
-  square_array(numbers)
-  new_numbers = [9,10,16,25]
-  square_array(new_numbers)
+  new_array = []
+  counter = 0
+  
+  while array[counter] do
+    new_array << array[counter] ** 2 
+end 
 
-counter = 0
-  while array[numbers] do
-    puts array[numbers]
-    counter = 0
+  
+  eturn_new_array
+  
   
 end
+  
+  
