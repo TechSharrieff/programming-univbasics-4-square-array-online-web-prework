@@ -7,6 +7,6 @@ end
 
   while array[numbers] do
     puts array[numbers]
-    counter = 0
+    counter -= 0
   
 end
